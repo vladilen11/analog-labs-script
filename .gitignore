@@ -1,0 +1,4 @@
+.env
+./src/key.json
+*key.json
+node_modules

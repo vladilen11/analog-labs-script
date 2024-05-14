@@ -1,0 +1,30 @@
+{
+	"name": "analog-script",
+	"version": "1.0.0",
+	"main": "index.js",
+	"exports": {
+		".": "./dist/index.js"
+	},
+	"type": "commonjs",
+	"types": "src/index.ts",
+	"license": "MIT",
+	"scripts": {
+		"dev": "ts-node src/index.ts"
+	},
+	"dependencies": {
+		"@analog-labs/timegraph-js": "^0.1.1",
+		"@polkadot/api": "^11.0.2",
+		"@polkadot/keyring": "^12.6.2",
+		"@polkadot/util-crypto": "^12.6.2",
+		"@polkadot/wasm-crypto": "^7.3.2",
+		"chalk": "^5.0.1",
+		"dotenv": "^16.0.3",
+		"ts-node": "^10.9.2",
+		"tsup": "^6.7.0",
+		"tsx": "^3.12.6",
+		"typescript": "5.1.6",
+		"yargs": "^17.7.1",
+		"zod": "^3.21.4",
+		"zod-validation-error": "^1.3.0"
+	}
+}
